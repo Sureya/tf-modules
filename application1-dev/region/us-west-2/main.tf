@@ -15,6 +15,6 @@ provider "aws" {
 
 
 module "ec2-prod-instance" {
-  source = "/Users/sureyasathiamoorthi/repos/personal/personal/terraform-local/modules/ec2-module"
+  source = "github.com/Sureya/tf-modules/ec2-module"
   instance_name = "prod-instance"
 }
